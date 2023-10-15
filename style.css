@@ -1,0 +1,143 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Allura&family=Manrope:wght@300;400;500;600;700;800&family=Poppins:wght@500&family=Raleway:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+} 
+body{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+.first{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    padding: 40px;
+    background-color: white;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+.first .content a{
+
+    border: 1px solid rgb(94, 195, 235);
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(94, 195, 235);
+    color: white;
+    padding: 10px; 
+    font-size: 10px;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+   
+}
+.first .content{
+  margin: 0 auto;
+  width: 35%;
+}
+.first .image{
+    margin: 0 auto;
+    width: 30%;
+}
+.first img{
+    margin-top: 130px;
+    width: 300px;
+    height: 500px;
+    z-index: 1;
+}
+.second{ 
+    z-index: -1;
+}
+.second .imag img{
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 55vh;
+}
+
+.second-con{
+    position: relative;
+    display: flex;
+    padding: 160px;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+.second h2{
+    color: rgb(57, 240, 185);
+}
+.third{
+    height: 55vh;
+    text-align: center;
+    background-color: white;
+    padding: 200px;
+    line-height: 1.9;
+    
+}
+.third a{
+    border: 1px solid rgb(94, 195, 235);
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(94, 195, 235);
+    color: white;
+    padding: 10px; 
+    font-size: 10px;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.four{
+    background-image: url(assets/bg.jpg);
+    text-align: center;
+    padding-top: 130px;
+    color: white;
+    line-height: 1.8;
+}
+.four img{
+    width: 100%;
+    height: 90vh; 
+    text-wrap: stable; 
+}
+
+.borders{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px ;
+    text-transform: capitalize;
+    justify-content: center;
+}
+.border1{
+    border: 3px dashed white;
+    width: 390px;
+    height: 230px;
+    padding: 90px;
+    margin-left: 25px;
+    justify-content: center;
+}
+.footer-con a{
+    margin-top: 0;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+
